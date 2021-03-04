@@ -1,1 +1,7 @@
 site_name: My Docs
+theme:
+  name: material
+  custom_dir: overrides
+google_analytics:
+  - UA-58229362-4
+  - auto
