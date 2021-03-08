@@ -9,6 +9,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
 * checking if the workflow is working.
+* check to see if the site directory is needed
 
 ## Project layout
 
