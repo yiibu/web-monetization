@@ -1,10 +1,6 @@
 # Web Monetization
 
-Source files for [https://yiibu.github.io/web-monetization/](https://yiibu.github.io/web-monetization/).
-
 Source available at [https://github.com/yiibu/web-monetization](https://github.com/yiibu/web-monetization).
-
-Built with [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
 
