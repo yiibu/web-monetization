@@ -1,6 +1,10 @@
-# Welcome to MkDocs
+# Web Monetization
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Source files for [https://yiibu.github.io/web-monetization/](https://yiibu.github.io/web-monetization/).
+
+Source available at [https://github.com/yiibu/web-monetization](https://github.com/yiibu/web-monetization).
+
+Built with [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
 
@@ -8,8 +12,6 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
-* checking if the workflow is working.
-* check to see if the site directory is needed
 
 ## Project layout
 
