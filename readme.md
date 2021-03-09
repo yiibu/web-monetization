@@ -34,7 +34,7 @@ To force deploy the static site to Github Pages:
 
 `mkdocs gh-deploy --force`
 
-Note: a Github workflow exists to automatically deploy the static site to Github pages upon recieving an update to the 'main' branch, so you should never have to run 'mkdocs gh-deploy --force', just check in your changes to the main branch. 
+Note: a Github workflow exists to automatically deploy the static site to Github pages upon recieving an update to the 'main' branch, so you should never have to run 'mkdocs gh-deploy --force', just check in your changes to the main branch and wait a couple of minutes for the action to complete.
 
 To deactivate the virtual environment:
 
