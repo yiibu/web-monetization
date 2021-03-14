@@ -1,0 +1,62 @@
+# Not your parent's web
+
+It's 2030, and the Web Monetization offering has changed a great deal since its early experiments with flat-rate subscriptions. Streaming payments still exist, but do so in parallel with a vast virtual tipping ecosystem. Here’s how it works.
+
+Users begin by signing up for a web wallet, which they then either load up with funds or link to a credit card. Wallet providers are easy to find and typically consist of fintech startups, consumer banking spin-offs, or global tech companies with a prior background in payments and experience negotiating the intricacies of global [KYC requirements](https://en.wikipedia.org/wiki/Know_your_customer). The latter is typically necessary, as providers increasingly serve both the consumers and publisher side of the ecosystem (the privacy implications of which continue to be widely debated). 
+
+Most countries have multiple wallet providers who primarily compete by offering the best user- and publisher-facing features. All wallets offer basic money management tools, including monthly spending dashboards and the ability to set monthly spend limits, but more sophisticated offerings can include family plans with per-user spend limits, parental controls, interoperability with 3rd-party (or decentralized) data storage, and dual-purpose wallets that can be subdivided to act as both sender and receiver.
+
+Users interact with this ecosystem in ways. The first resembles the original streaming payments concept, but without the benefit of a flat-rate subscription. Most sites use streaming to augment a basket of monetization methods that may include contextual advertising, merchandise, and Interledger powered micro-subscriptions offered in increments as small as a day (which are particularly popular in countries with poor internet infrastructure). Providers set the streaming rate, which hovers around $0.0001 in most developed economies but is set lower everywhere else, and users simply pay as they browse until their funds run out. 
+
+Given the potential for overspend, these payments are now entirely opt-in, with permissions natively managed in the browser, and clearly sign-posted so users are always aware of both the cost and their remaining balance or monthly spend. Despite this added friction, streaming payments remain popular in many parts of the developed world, with EU citizens topping usage tables by opting-in to pay-as-you-stream on an average of twenty sites per year. In all markets, however, streaming payments remain secondary to e-gifting which is now used by over 2 billion people. 
+
+## The gifting web
+
+Sites enable gifting in a similar way to streaming payments—by including a payment pointer within a signposted tag. Browsers parse these tags on load, link the site’s payment details to the browser-native gifting agent, and enable a suitable interface for the user. In early iterations, this interface simply consisted of a form field into which users could type the sum they wanted to tip. This worked well enough but caused indecision in a significant proportion of users who, despite _wanting_ to tip, felt uncomfortable sending tiny amounts and would have preferred a specific ask to frame larger ones (e.g. Tip me $3 for a coffee). 
+
+Some of these concerns were mere growing pains, no doubt caused by generations of purely transactional e-commerce, yet kicked off a wave of experimentation that began with the replacement of fields with pre-populated tip buttons, only to eventually settle on a model that would leverage the capabilities of Interledger far more deeply than anyone expected.
+
+Users show their appreciation for a creator by gifting them virtual objects, commonly referred to as e-gifts. Users can purchase these in advance from their provider (who due to their often minuscule unit-cost typically sell them in packs), or on the fly using their streaming payments account. Each object is represented by an emoji-style graphic such as a lollipop, silver coin or sports car, and has a (regionally adjusted) value that ranges from a fraction of a penny to a maximum of a few dollars. Higher cost, branded items also exist, but thanks to recent regulation, their cost is now capped at a maximum of $10. 
+
+An e-gift is part-object and part-currency. An object, once gifted, lives in a publisher’s wallet as would a quantity of pounds or dollars, and can then be withdrawn by converting it's pre-defined value to the owner’s preferred currency type (fiat or otherwise). As e-gifts are also a standard and underpinned by the now widely-adopted Interledger, they can also be used anywhere that accepts “real money”, including e-commerce sites and offline shops that accept payment via mobile wallet.
+
+Although the look of an e-gift should matter little to the publisher or creator that receives it (and distributing them as you browse remains the primary use case) their highly visual nature has spawned some interesting practices. One of these is the purchase of novel e-gifts as social currency; showing them off the way one might post a selfie of a new hat or a picture of the fancy ice cream cone you’re about to eat. Some people instead collect them as one might collect vinyl characters or limited edition art. In this sense, gifting a particularly interesting object to your favourite creator can go beyond the purely monetary exchange. A way to show appreciation by giving them something that is of personal value to you, and you hope may be to them as well regardless of its monetary worth. 
+
+## A berry by any other name
+
+Given how widespread gifting has become, it’s sobering to recall how basic the first generation gifting toolchain actually was. Wallets didn’t record the type of object that had been gifted, and if the creator wanted to know what content might have led to this donation, they had to sort that out for themselves. Denominations were—by design—small enough that almost anyone could tip, so parents set up wallets for their kids, and people without access to credit cards could top wallets up through corner stores as they would a mobile SIM. 
+
+Replacing money with e-gifts had managed to abstract the act of flinging hearts or berries at a creator from the actual _value_ of that gift—yet in doing so had caused a new problem. Users routinely reported forgetting what a berry was worth, and simply recalling that they would need to gift an awful lot of them to make a dent in their wallets. If you barely know the value of a berry, you’re just as likely to give ten of them as you are to give one, but beyond that, numbers begin to lose meaning. Users reported not seeing the point of gifting larger quantities, and with many gifts worth a mere fraction of a penny, the resulting revenue was often barely worth it. The solution to this problem took a while to emerge and ended up doing so thanks to an interesting shift in mental models. 
+
+***
+
+Paying a company for a multi-faceted product like a newspaper isn’t quite the same as paying a person for an essay they’ve crafted. Yet, with e-gifts, users were doing a bit of both. Gifting might mean they liked the site, or had enjoyed a specific article, or wanted to send kudos to a specific author. Not being able to convey which of these they intended proved frustrating to both users and creators, and led to often heated discussions around attribution between unions and larger sites. The problem was eventually solved by the invention of tools that not only enabled users to declare gifting intent, but (rather conveniently) provided them with reasons to tip more often. 
+
+Rather than simply associate e-gifts with the page on which they occur, it's now possible to assign them to a specific phrase, paragraph, or image. This not only provides authors and editors with valuable context but results in a far larger volume of tips per user, and increased confidence in the value of their gift. Site owners can use the metadata associated with these gifts to accurately segment revenue, configure real-time author-attributed disbursement, or more easily manage the calculations required for complex, multi-creator scenarios such as those common in industries such as film and animation. 
+
+## A mode for every mood
+
+Although providers kicked off the e-gift craze, the most dramatic growth should, in fact, be attributed to the browser. No longer content to provide a simple window to the web, browsers now serve as experience enablers that shape-shift depending on the task at hand. While it’s still possible to browse unobstructed by chrome (most browsers call this Classic Mode), users now spend a shocking average of five hours a day in one of two new ‘experience modes’ optimized for common tasks and workflows.
+
+The first of these is ‘_social mode’_, an environment designed for group consumption of media such as games, films, live music, theatre and sports, or participation in collaborative tasks within productivity apps. The mode includes a built-in chat panel, multi-contributor e-gifting support, and opt-ins to experimental web standards such as animated e-stickers and the new Live Experiences web standard. 
+
+In stark context to the chaos of social mode, ‘_reading mode’_ offers a low-distraction environment optimized for long-form content creation and consumption. Ideal for e-books, short stories, and long-form journalism, it has spawned a revival in dedicated web support for the ePub standard and the creation of apps that enable writers to both create and publish web-native books. While e-gifting is supported in all browser modes, content consumed in reading mode is most often monetized through old fashioned streaming payments—either charged based on the amount read or as part of a flat-rate subscription.
+
+While pundits complain that these modes were obsolete the moment they were created (and there are already calls to add social collaboration to reading mode, and writing and reading views to social mode), supporters and detractors alike do agree that they have caused a wholesale shift in mental models whose impact will be felt for years to come. 
+
+***
+
+## Reading list
+
+Enjoyed this story? Discover things that inspired it, or may be of interest if this story has inspired you.
+
+
+
+*   Paper that explores [the mental transaction cost](https://nakamotoinstitute.org/static/docs/micropayments-and-mental-transaction-costs.pdf) (PDF) of traditional micropayments 
+*   Micropayments are [popular in China](https://technode.com/2016/03/07/digital-tipping-economy-china/) and are [built into popular apps](https://www.ozy.com/around-the-world/the-rise-of-digital-tipping-from-music-to-your-own-paycheck/93993/) such as [Tencent Music](https://www.musicbusinessworldwide.com/tencent-music-uses-tipping-to-rack-up-revenues-why-arent-western-music-streaming-platforms-doing-the-same/) and WeChat, either in the form of tipping, virtual gifts or other micropayment-powered formats such as “[bullet chats](https://www.goldthread2.com/culture/crazy-way-people-watch-videos-china-whole-subculture-its-own/article/2157123)”.
+*   An old, but still valid post by Clay Shirky that outlines [the case against micropayments](https://web.archive.org/web/20100227212806/http://openp2p.com/pub/a/p2p/2000/12/19/micropayments.html)
+*   The cautionary tale of Bigo, an e-gift enabled Chinese streaming platform [popular in Pakistan](https://restofworld.org/2020/app-connecting-south-asian-working-class/ ) that takes an eye-watering 73% cut of a streamer’s revenue. 
+*   Things the web probably doesn’t need: YouTube [SuperChats](https://www.theverge.com/2017/5/18/15656908/youtube-super-chat-paid-abomination) amplify the visibility of your chat message on a live stream by making it larger, giving it some colour, and pinning it atop the chat window for a period of time. 
+*   An excellent roundup of [Chinese virtual gifting](https://medium.com/@swaysnt/virtual-gifts-a-live-streaming-business-model-breakdown-a87c7500c3bc) and live-streaming business models.
+*   Musings on what [a Spotify for news](http://www.davidbauer.ch/2009/07/20/an-itunes-for-news-try-spotify-for-beyond-news/) might look like. 
+*   An argument against [micropayments as a solution to ad-blocking](https://digiday.com/media/micropayments-ad-blocking/) (that turns into an argument for centralized payment services).

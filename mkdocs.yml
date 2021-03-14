@@ -5,3 +5,6 @@ theme:
 google_analytics:
   - UA-58229362-4
   - auto
+markdown_extensions:
+  - admonition
+  - pymdownx.tabbed
