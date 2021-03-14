@@ -15,3 +15,5 @@ Source available at [https://github.com/yiibu/web-monetization](https://github.c
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+## Test check-in from Steph.
