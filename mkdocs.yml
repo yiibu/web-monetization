@@ -8,3 +8,7 @@ google_analytics:
 markdown_extensions:
   - admonition
   - pymdownx.tabbed
+theme:
+  features:
+    - toc.integrate
+    - navigation.instant

@@ -1,6 +1,6 @@
 # Not your parent's web
 
-It's 2030, and the Web Monetization offering has changed a great deal since its early experiments with flat-rate subscriptions. Streaming payments still exist, but do so in parallel with a vast virtual tipping ecosystem. Here’s how it works.
+_It's 2030, and the Web Monetization offering has changed a great deal since its early experiments with flat-rate subscriptions. Streaming payments still exist, but do so in parallel with a vast virtual tipping ecosystem. Here’s how it works._
 
 Users begin by signing up for a web wallet, which they then either load up with funds or link to a credit card. Wallet providers are easy to find and typically consist of fintech startups, consumer banking spin-offs, or global tech companies with a prior background in payments and experience negotiating the intricacies of global [KYC requirements](https://en.wikipedia.org/wiki/Know_your_customer). The latter is typically necessary, as providers increasingly serve both the consumers and publisher side of the ecosystem (the privacy implications of which continue to be widely debated). 
 

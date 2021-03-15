@@ -1,3 +1,5 @@
+# A technology in two parts
+
 Web Monetization, in its current form, is a technology in two parts. 
 
 The first is **Interledger**, a protocol that enables the transfer of money over the internet. The second is **Web Monetization** itself, an Interledger-powered API that enables users to stream tiny payments to participating websites as they browse the web. Those who have been involved in the web community for a while may be tempted to exclaim that micropayments are old news. They’ve been repeatedly tried and (outside parts of Asia) have never amounted to much. Why should this time be any different?
