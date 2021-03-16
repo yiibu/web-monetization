@@ -40,3 +40,8 @@ To deactivate the virtual environment:
 
 `deactivate`
 
+To publish a pdf and epub of the work using an installed version of [Pandoc](https://pandoc.org/) and [BasicText](http://www.tug.org/mactex/morepackages.html) enter:
+
+`./publish.sh`
+
+The pdf and epub files will be located in a folder called 'published'.

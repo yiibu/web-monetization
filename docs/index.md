@@ -1,4 +1,3 @@
-
 # A brief introduction
 
 Welcome to the future. It’s 2030…
