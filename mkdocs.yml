@@ -1,26 +1,30 @@
-site_name: Exploring the future of web monetization
+site_name: Three futures - exploring the future of web monetization
 
 theme:
   name: material
   custom_dir: overrides
+  palette:
+    primary: cyan
+  icon:
+    logo: material/rocket-launch
 
-  
+copyright: Copyright &copy; 2021 Stephanie Rieger
 
 google_analytics:
   - UA-58229362-4
   - auto
 
 nav:
-  - Home: index.md
+  - Start here!: index.md
   - The Present:
     - A technology in two parts: the-present/index.md
     - What is the Interledger protocol?: the-present/what-is-the-interledger-protocol.md
     - What is Web Monetization?: the-present/what-is-web-monetization.md
   - Three Futures:
     - Three glimpses of the future: three-futures/index.md
-    - i. Reset the open web: three-futures/reset-the-open-web.md
-    - ii. The bundled web: three-futures/the-bundled-web.md
-    - iii. Not your parent's web: three-futures/not-your-parents-web.md
+    - 1. Reset the open web: three-futures/reset-the-open-web.md
+    - 2. The bundled web: three-futures/the-bundled-web.md
+    - 3. Not your parent's web: three-futures/not-your-parents-web.md
   - Recommendations:
     - Thoughts and recommendations: recommendations/index.md
     - Balance privacy and functionality: recommendations/balance-privacy-and-functionality.md
@@ -34,4 +38,21 @@ nav:
 markdown_extensions:
   - admonition
   - pymdownx.tabbed
+  - pymdownx.critic
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/stephanierieger
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/stephanierieger/
+
+
+
 

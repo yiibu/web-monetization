@@ -98,6 +98,9 @@ Example:_ $stephanie.wallet.example and $wallet.example/stephanie._
 
 Publishers simply add the pointer to the [document head](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML) (or template) of each page that they want to monetize. If they are using a CMS, adding this pointer may require a new field, but popular CMSs such as WordPress [already support this](https://xrpcommunity.blog/coil-wordpress/). 
 
+!!! note "Note"
+    This whitepaper is web monetized. If you're a Coil subscriber, I thank you for your contribution :pray:
+
 #### Isn’t there already a W3C approved Web payments API?
 
 There is. The W3C has ratified a [Payments API web standard](https://www.w3.org/TR/payment-request/) designed for scenarios where **a specific price has been expressed by a website**. In such a use case, that API’s role is to facilitate a smooth, secure, and consistent payment experience using traditional payment mechanisms such as credit cards, or on-device payment technologies that leverage these same mechanisms. 
@@ -129,7 +132,7 @@ Coil streams at an average rate of $0.0001 USD per second (or $0.36 an hour). On
 
 It’s unclear whether this approach will persist. Varying the streaming rate is bound to frustrate publishers, but as the specification is open, there’s nothing preventing a new provider from choosing a different rate, or an entirely different approach to both subscriptions and overages. As the ecosystem is currently small, Coil is working hard to attract both users and publishers. Covering overages (albeit at a lower stream rate) may simply be a cost they will have to bear, but it’s also worth noting that if a member _doesn’t_ browse enough to spend their $5 allotment, Coil keeps whatever remains.
 
-**What’s in the subscription?**
+#### What’s in the subscription?
 
 Coil’s model is purely transactional. Any publisher can receive payments from Coil subscribers by placing a payment pointer on their site and requires no special permission or account to do so. _Unlike_ flat-rate streaming services for film or music, Coil has no formal agreement with creators. It doesn’t own or fund the creation of content, nor does it have a say in the benefits they provide to Coil subscribers. There is however nothing preventing future providers (or Coil itself) from choosing to alter these terms in an effort to increase profitability or work towards a superior product/market fit.
 
@@ -137,13 +140,13 @@ To encourage the growth of a healthy ecosystem, Coil does however strongly recom
 
 The end approach is however ultimately up to site owners, and as it’s still early days, many are still exploring and evaluating their options.
 
-**Using and enabling Coil**
+#### Using and enabling Coil
 
 At the time of writing, Web Monetization is primarily available using a desktop browser extension provided by Coil. Once installed and configured with a user’s credentials, the extension streams payments to any web monetized site that requests it. Beyond this, the functionality is quite limited. Users are unable to stop the stream, block a domain that they prefer not to fund, or obtain transaction details such as the amount streamed in each browsing session. 
 
 Some of these features will no doubt appear with time, but others have been _purposely left out_ as they would require more data collection than Coil is happy to undertake given its strict [privacy promise](https://help.coil.com/docs/general-info/privacy-policy/). They instead envision an ecosystem where users wanting such functionality can download third-party browser extensions such as [PayTrackr](https://dev.to/wobsoriano/introducing-paytrackr-an-easy-way-to-keep-track-of-all-your-micropayments-4m31) or [Akita,](https://github.com/esse-dev/akita/blob/master/README.md) which provide features such as a real-time count of payments to individual domains, and a running total of payments per day/month. 
 
-**Coil’s privacy promise**
+#### Coil’s privacy promise
 
 Coil’s founders started the company to experiment with alternatives to monetization through advertising, and in doing so, provide alternatives to the tracking and data collection that often accompany it. They’ve therefore taken a firm stance on user privacy, and have implemented a range of safeguards to ensure the technology doesn’t inadvertently introduce new opportunities to gather data about users’ activities on the web.
 
@@ -172,13 +175,13 @@ As there is also no built-in way to track paying visitors across sessions, large
 
 A lot can change when it comes to new technologies, and there’s nothing to indicate that Web Monetization will be any different. Here are the most likely short-term changes:
 
-_More monetization providers_
+**More monetization providers**
 
 To be successful, providers will need to strike a balance between providing value to both subscribers and publishers, while ensuring that doing so still enables them to turn a profit. How they will do so is yet to be defined, but is likely to include tweaks to the flat-rate streaming business model and the tools they offer to users and publishers. 
 
 How we use this technology may also be defined by _who_ chooses to become a provider, the leverage they have within the industry, and how the ability to provide these services is regulated.
 
-_Browsers and web standard support_
+**Browsers and web standard support**
 
 Without widespread browser adoption, Web Monetization is unlikely to grow, as it will remain tied to a browser extension. Extensions are only used by a small subset of the desktop browser user base, they require additional time to download and install, and remain unsupported on mobile. This seems particularly likely to prevent meaningful adoption in large parts of the world where mobile use is predominant, and limit the technology’s usefulness for news and journalism, a type of content that is increasingly consumed on mobile, and through social media. 
 
@@ -186,7 +189,7 @@ For all of these reasons, Coil is working to entice browser vendors to experimen
 
 Some of these changes may be relatively minor—Coil has, for example, already adjusted the API in response to a request from browser vendors to [minimize potential performance impacts](https://github.com/coilhq/web-monetization-projects/issues/900)—but others may be far more substantial.
 
-_Tools for publishers_
+**Tools for publishers**
 
 In the near future, [it seems likely](https://github.com/WICG/webmonetization/issues/19) that the payment pointer metatag will be replaced by a new syntax, similar to that currently used to specify a style sheet or JavaScript file. While seemingly minor, this change is an important reminder that, just as widespread browser implementation will be critical to user adoption, the final publisher-facing implementation will determine how easy it is for creators to experiment with the technology. 
 

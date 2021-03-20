@@ -48,4 +48,4 @@ The scenarios in this paper are **a thought experiment** driven by the assumptio
 
 This is far from a foregone conclusion. The current payments infrastructure is controlled by powerful actors (including governments and large corporations) and relied upon to power billions of daily transactions. It may not always be cheap or efficient, but we understand it's boundaries, and guardrails exist to ensure its safety and resilience. 
 
-It’s perhaps for this reason that [Interledger’s creators](https://dev.to/hammertoe/brief-history-of-web-monetization-5ech) chose a prototypical use case that _had nothing to do_ with disrupting financial payments—the absence of a _built-in_ monetization technology for web sites. 
+It’s perhaps for this reason that [Interledger’s creators](https://dev.to/hammertoe/brief-history-of-web-monetization-5ech) chose a prototypical use case **that had nothing to do** with disrupting financial payments—the absence of a built-in monetization technology for web sites. 

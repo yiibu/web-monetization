@@ -1,27 +1,5 @@
 # Mitigate harm
 
-<!-----
-NEW: Check the "Suppress top comment" option to remove this info from the output.
-
-Conversion time: 1.12 seconds.
-
-
-Using this Markdown file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β29
-* Sun Mar 14 2021 09:52:09 GMT-0700 (PDT)
-* Source doc: FINAL - Three futures: exploring the future of web monetization
-* This is a partial selection. Check to make sure intra-doc links work.
------>
-
-
 Throughout this paper, I’ve described functionality that should, in my opinion, **be considered table-stakes** for the ethical deployment of streaming payments. This includes: 
 
 
@@ -34,7 +12,7 @@ Although users are the web’s primary constituents (a primary statement of the 
 
 A final layer that we should work to preserve is the API’s interoperability. Ensuring a choice of provider, digital wallet, and browsers/extension will be critical to ensure this technology isn’t merely accessible to the most affluent users and creators, those with the most popular devices, or those living in the most attractive or profitable markets. Which brings us to the topic of **access**—or lack thereof—as an opportunity for [harm](https://www.w3.org/2001/tag/doc/ethical-web-principles/#noharm).
 
-***
+## Asking hard questions
 
 Most of us probably all agree that accessing the internet is—if not [a human right](https://en.wikipedia.org/wiki/Right_to_Internet_access) per se—then at the very least a right that should not be restricted. The internet not only enables us to exercise our right to free expression, but has become a necessary tool for us to live, learn, and thrive in the modern world. It’s also increasingly hard to envision how humanity will be able to successfully meet its most pressing challenges—be they the Covid pandemic or climate change—without the ability to easily communicate, collaborate, and engage as we do online. Yet if this true, what of the right to access the web (or if you prefer, the content and services that exist on the internet)?
 

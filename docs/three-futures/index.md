@@ -1,6 +1,6 @@
 # Three glimpses of the future
 
-Coil is in startup mode, and so is Web Monetization. As an open technology, the API been designed with a minimal amount of functionality to encourage others to innovate and build on top of it. _Consequently, almost everything is still up for discussion_ (including the concept of streaming payments, which as an early reviewer of this paper astutely noted may simply be “a quirk of the current design rather than a necessary component of this imagined future”)
+Coil is in startup mode, and so is Web Monetization. As an open technology, the API been designed with a minimal amount of functionality to encourage others to innovate and build on top of it. **Consequently, almost everything is still up for discussion** (including the concept of streaming payments, which as an early reviewer of this paper astutely noted may simply be “a quirk of the current design rather than a necessary component of this imagined future”).
 
 In the prior section, we briefly touched on the changes we can expect as the technology evolves, the user base grows, and an ecosystem develops alongside it. _But what might this future look like?_
 

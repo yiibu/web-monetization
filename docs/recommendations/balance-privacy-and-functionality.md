@@ -22,7 +22,6 @@ What’s not yet clear, is whether this binary approach to privacy will serve th
 
     * This last point is particularly important. Just as sites now ask users with ad-blockers to shut them off, they will no doubt find ways to penalise users who stream while running on fumes. Users will therefore be incentivized to only pay websites they actually care about, and providers will in turn be compelled to enable them to do so. An unhappy user may choose to switch providers, stop visiting or (where available) block payments to certain sites in an effort to favour others, or stop participating in the ecosystem altogether. 
 
-    All things considered—and assuming flat-rate streaming memberships remain the primary model—_it seems unlikely that the current privacy vision will enable the ecosystem to simultaneously fulfil all of these promises_. 
  
 
 _All things considered—and assuming flat-rate streaming memberships remain the primary model—it seems unlikely that the current privacy vision will enable the ecosystem to simultaneously fulfil all of these promises_. 
@@ -46,16 +45,16 @@ Let’s first look at how different layers of privacy might work at the provider
 
 === "Level 0"
 
-    *   **Level 0 **is akin to [what Coil offers](https://coil.com/p/sharafian/Doubling-Down-on-Privacy/cD_ZiwT2J) today. Users can browse the web in full confidence that their provider cannot see the sites they are visiting and that this obfuscation extends to its exchanges with both the wallet and publisher. As Coil isn’t gathering data, it cannot provide user-facing tools such as analytics, but users are free to install third-party browser extensions that do.
+    *   **Level 0** is akin to [what Coil offers](https://coil.com/p/sharafian/Doubling-Down-on-Privacy/cD_ZiwT2J) today. Users can browse the web in full confidence that their provider cannot see the sites they are visiting and that this obfuscation extends to its exchanges with both the wallet and publisher. As Coil isn’t gathering data, it cannot provide user-facing tools such as analytics, but users are free to install third-party browser extensions that do.
 
 === "Level 1"
 
-    *   At **Level 1,** users would opt-in to limited data collection. Doing so would unlock functionality such as charts that show their money has been spent, the ability to block sites they prefer not to pay, and boost payment to sites they most care about. The data collected to enable this would be clearly explained during opt-in, and users could at any time clear their history, or revert to Level 0.
+    *   At **Level 1** users would opt-in to limited data collection. Doing so would unlock functionality such as charts that show their money has been spent, the ability to block sites they prefer not to pay, and boost payment to sites they most care about. The data collected to enable this would be clearly explained during opt-in, and users could at any time clear their history, or revert to Level 0.
 
 
 === "Level 2"
 
-    *   At **Level 2 **users could opt-in to share additional data, maybe not in this case used directly by providers, but shared onward to publishers. This might unlock new APIs enabling publishers to better interface with users, track and anticipate their spend (or lack thereof if payment is blocked), or signal what perks are available. Although the specification doesn’t currently envision this sort of tie-in with providers (which could result in provider consolidation to “own” the API) the downstream user experience benefits make it worth considering.
+    *   At **Level 2** users could opt-in to share additional data, maybe not in this case used directly by providers, but shared onward to publishers. This might unlock new APIs enabling publishers to better interface with users, track and anticipate their spend (or lack thereof if payment is blocked), or signal what perks are available. Although the specification doesn’t currently envision this sort of tie-in with providers (which could result in provider consolidation to “own” the API) the downstream user experience benefits make it worth considering.
   
 
 As the first provider, Coil has a unique opportunity to not only experiment with ways to achieve this at a technical level, but gain valuable insight into user sentiment, mental models, and comfort level with the trade-offs involved at each level. 
@@ -92,8 +91,8 @@ The why…
 
 
 
-*   **Choice: **Browser consolidation is always a risk, but there are still many browsers to choose from, and (discussions of rendering engine diversity aside), switching browsers does enable users to unlock dramatically different features. 
-*   **Trust: **Users already trust the browser with their information. Some of this trust is aided by architecture and standards that put user safety first, but the existence of these standards and the formalized process to create new ones is proof that we should be able to do the same once again. Some browsers are also entirely open, enabling regular scrutiny, and making it relatively easy for someone to create a new browser. 
+*   **Choice:** Browser consolidation is always a risk, but there are still many browsers to choose from, and (discussions of rendering engine diversity aside), switching browsers does enable users to unlock dramatically different features. 
+*   **Trust:** Users already trust the browser with their information. Some of this trust is aided by architecture and standards that put user safety first, but the existence of these standards and the formalized process to create new ones is proof that we should be able to do the same once again. Some browsers are also entirely open, enabling regular scrutiny, and making it relatively easy for someone to create a new browser. 
 *   **Context:** The browser feels like a logical spot for a user to store global browsing preferences—which already often include passwords, payment credentials, and could in the future include customizations related to streaming payments.
 
 Here are a few examples of how this might work…
