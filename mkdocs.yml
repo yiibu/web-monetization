@@ -12,22 +12,22 @@ google_analytics:
 
 nav:
   - Home: index.md
-  - i. The Present:
+  - The Present:
     - A technology in two parts: the-present/index.md
     - What is the Interledger protocol?: the-present/what-is-the-interledger-protocol.md
     - What is Web Monetization?: the-present/what-is-web-monetization.md
-  - ii. Three Futures:
+  - Three Futures:
     - Three glimpses of the future: three-futures/index.md
-    - Reset the open web: three-futures/reset-the-open-web.md
-    - The bundled web: three-futures/the-bundled-web.md
-    - Not your parent's web: three-futures/not-your-parents-web.md
-  - iii. Recommendations:
+    - i. Reset the open web: three-futures/reset-the-open-web.md
+    - ii. The bundled web: three-futures/the-bundled-web.md
+    - iii. Not your parent's web: three-futures/not-your-parents-web.md
+  - Recommendations:
     - Thoughts and recommendations: recommendations/index.md
     - Balance privacy and functionality: recommendations/balance-privacy-and-functionality.md
     - Facilitate bundling: recommendations/facilitate-bundling.md
     - Mitigate harm: recommendations/mitigate-harm.md
-  - A few final words: in-closing/index.md
-  - Bio and acknowledgements: bio-acknowledgements/index.md
+  - A few final words: final-words.md
+  - Acknowledgements and bio: bio-acknowledgements.md
 
     
 

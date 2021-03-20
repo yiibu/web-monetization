@@ -28,7 +28,7 @@ Given how widespread gifting has become, it’s sobering to recall how basic the
 
 Replacing money with e-gifts had managed to abstract the act of flinging hearts or berries at a creator from the actual _value_ of that gift—yet in doing so had caused a new problem. Users routinely reported forgetting what a berry was worth, and simply recalling that they would need to gift an awful lot of them to make a dent in their wallets. If you barely know the value of a berry, you’re just as likely to give ten of them as you are to give one, but beyond that, numbers begin to lose meaning. Users reported not seeing the point of gifting larger quantities, and with many gifts worth a mere fraction of a penny, the resulting revenue was often barely worth it. The solution to this problem took a while to emerge and ended up doing so thanks to an interesting shift in mental models. 
 
-***
+
 
 Paying a company for a multi-faceted product like a newspaper isn’t quite the same as paying a person for an essay they’ve crafted. Yet, with e-gifts, users were doing a bit of both. Gifting might mean they liked the site, or had enjoyed a specific article, or wanted to send kudos to a specific author. Not being able to convey which of these they intended proved frustrating to both users and creators, and led to often heated discussions around attribution between unions and larger sites. The problem was eventually solved by the invention of tools that not only enabled users to declare gifting intent, but (rather conveniently) provided them with reasons to tip more often. 
 

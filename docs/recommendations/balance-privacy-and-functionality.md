@@ -46,7 +46,7 @@ Let’s first look at how different layers of privacy might work at the provider
 
 === "Level 0"
 
-    *   **Level 0 **is [what Coil offers](https://coil.com/p/sharafian/Doubling-Down-on-Privacy/cD_ZiwT2J) today. Users can browse the web in full confidence that their provider cannot see the sites they are visiting and that this obfuscation extends to its exchanges with both the wallet and publisher. As Coil isn’t gathering data, it cannot provide user-facing tools such as analytics, but users are free to install third-party browser extensions that do.
+    *   **Level 0 **is akin to [what Coil offers](https://coil.com/p/sharafian/Doubling-Down-on-Privacy/cD_ZiwT2J) today. Users can browse the web in full confidence that their provider cannot see the sites they are visiting and that this obfuscation extends to its exchanges with both the wallet and publisher. As Coil isn’t gathering data, it cannot provide user-facing tools such as analytics, but users are free to install third-party browser extensions that do.
 
 === "Level 1"
 
@@ -60,14 +60,14 @@ Let’s first look at how different layers of privacy might work at the provider
 
 As the first provider, Coil has a unique opportunity to not only experiment with ways to achieve this at a technical level, but gain valuable insight into user sentiment, mental models, and comfort level with the trade-offs involved at each level. 
 
-These insights could then be leveraged during discussions with browsers and web standards bodies to help determine whether to change or enhance the API, what features a baseline browser implementation should offer users, and the [design patterns](https://www.grantfortheweb.org/blog/w3c) and [ethical guidelines](w3.org/2001/tag/doc/ethical-web-principles/) the industry should advocate for. 
+These insights could then be leveraged during discussions with browsers and web standards bodies to help determine whether to change or enhance the API, what features a baseline browser implementation should offer users, and the [design patterns](https://www.grantfortheweb.org/blog/w3c) and [ethical guidelines](https://w3.org/2001/tag/doc/ethical-web-principles/) the industry should advocate for. 
 
 Augmentations to the standard might include new data formats (ideally leveraging standardized web stack components such as the manifest) to interoperably expose information that would improve the streaming payment experience. These might include:
 
 
 
-*   A standard format** for websites to convey the perks on offer**. Providers could leverage this data to help subscribers discover participating websites during onboarding, users could easily toggle it on and off in-browser as added context while visiting a site, and search engines could index and display it alongside search results.
-*   A standard format **for providers to convey their streaming rates**. Third parties could aggregate this data into convenience APIs for publishers, or leverage them to create ‘provider comparison tools’ for users. Agreeing this format with standards bodies would also set an important precedent, shaping future provider business models that might otherwise default to opacity, [framing streaming rates](https://github.com/WICG/webmonetization/issues/139#issuecomment-775777328) as the “secret sauce” that enables their subscribers to browse longer and gain more perks compared to their competition (I’m being optimistic here, but it’s early days, and we have an opportunity to bake equitable expectations into the standard).
+*   **A standard format for websites to convey the perks on offer**. Providers could leverage this data to help subscribers discover participating websites during onboarding, users could easily toggle it on and off in-browser as added context while visiting a site, and search engines could index and display it alongside search results.
+*   **A standard format for providers to convey their streaming rates**. Third parties could aggregate this data into convenience APIs for publishers, or leverage them to create ‘provider comparison tools’ for users. Agreeing this format with standards bodies would also set an important precedent, shaping future provider business models that might otherwise default to opacity, [framing streaming rates](https://github.com/WICG/webmonetization/issues/139#issuecomment-775777328) as the “secret sauce” that enables their subscribers to browse longer and gain more perks compared to their competition (I’m being optimistic here, but it’s early days, and we have an opportunity to bake equitable expectations into the standard).
 
 Starting this experimentation early would also enable Coil to provide reference implementations for certain behaviours and interfaces (ideally open source, as Coil has already chosen to do with [many](https://github.com/coilhq/web-monetization-projects/tree/main/packages/coil-extension) of [its tools](https://webmonetization.org/docs/receipt-verifier)) while modelling “good behaviour”, and creating baseline expectations that would extend beyond key ecosystem actors. 
 

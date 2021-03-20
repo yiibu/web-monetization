@@ -52,16 +52,16 @@ This last step is primarily theatre (Web Monetization remains an open standard, 
 
 The dream of a fully open and interoperable web monetization ecosystem may not have come to fruition, but it is now down a path that champions the diversity of the web and the agency of its users and creators.
 
+***
+
 ## Reading list
 
 Enjoyed this story? Discover ideas that inspired it, or may be of interest if this story has inspired you.
 
-
-
 *   Blendle’s [seven-year journey](https://www.niemanlab.org/2019/06/micropayments-for-news-pioneer-blendle-is-pivoting-from-micropayments/) to create a micropayments platform for news. Interesting to contrast this model with [Scroll](https://medium.com/the-idea/the-latest-scroll-aims-to-create-a-better-online-news-experience-february-3-2020-cb4e9bb5eb2d) which is building a network of sites that users can access using a single subscription service, and [Flattr](https://flattr.com), which enables users to support sites they care about through a single monthly subscription.
 *   How do subscription streaming services work (and do they?) in countries where economics dictate a much lower ($1-$2) subscription cost? Some examples from [Nigeria](https://restofworld.org/2020/bringing-nollywood-to-the-world/) and [Bangladesh](https://restofworld.org/2020/how-bongo-took-streaming-to-the-masses/). 
-*   Super interesting podcast from the BBC about how streaming music services are [transforming how songs are written](https://pca.st/episode/1151ea90-9608-41d3-95e6-cadeeb44eb7c).
-*   Ethan Zuckerman, who runs the recently formed [Institute for Digital Public Infrastructure](https://publicinfrastructure.org), has written extensively about the need for what he calls “public service media”. [Here](https://knightcolumbia.org/content/the-case-for-digital-public-infrastructure) are [a few of](https://knightcolumbia.org/content/civic-logic-social-media-with-opinion-and-purpose) [his best articles.](https://knightcolumbia.org/content/what-if-social-media-worked-more-like-email) 
+*   A fascinating podcast from the BBC about how streaming music services are [transforming how songs are written](https://www.bbc.co.uk/programmes/p092r7l8).
+*   Ethan Zuckerman, who runs the recently formed [Institute for Digital Public Infrastructure](https://publicinfrastructure.org), has written extensively about the need for what he calls “public service media”. [Here](https://knightcolumbia.org/content/the-case-for-digital-public-infrastructure) are [a few of](https://knightcolumbia.org/content/civic-logic-social-media-with-opinion-and-purpose) his [best articles.](https://knightcolumbia.org/content/what-if-social-media-worked-more-like-email) 
 *   To mend a broken internet, [create public parks](https://www.wired.com/story/to-mend-a-broken-internet-create-online-parks/ ). 
 *   [The changing face of local news media](https://medium.com/trust-media-and-democracy/5-business-models-for-local-news-to-watch-in-2020-82223d856896). Packed with contemporary examples, including cooperatives, buy-outs to non-profit, and government funding. 
 *   [Warner Music Group’s](https://investors.wmg.com/static-files/2528a96d-16b3-4a61-91e6-2db600713266) (PDF) annual report to the SEC - contains interesting examples of what happens when “a small number of digital music services control much of the legitimate digital music business” (in Warner’s case, Apple and Spotify are now 31% of its total revenues…and as there are only two large streaming services, and not that many music labels…that’s an awful lot of concentration in one spot).

@@ -42,17 +42,20 @@ Small creators had flocked to Web Monetization. They loved the real-time payment
 
 They needed to not only gain more fans but increase the proportion of those who were able to pay while they browsed. And what better way to do so, than to collaborate with other like-minded creators.
 
-These collaborations were wildly creative, immediately breaking new ground by not limiting themselves to posting articles or hosting a Discord server, but instead considering what that specific community might need to thrive. Shared spaces designed around a common purpose, with affordances built to suit the unique characteristics of that community and its audience. A creative role-playing-game collective might for example host a mix of game tutorials; a downloadable [game](https://doad.co.uk/pages/aoad) and lore marketplace; and a suite of [utility apps](https://probabletrain.itch.io/dungeon-scrawl) useful to [gamemasters](https://en.wikipedia.org/wiki/Gamemaster). Different parts of the site might be monetized in different ways, leveraging streaming payment to unlock apps for occasional users, hosting real-time tutorials with a flat entry fee (and plenty of opportunities to tip), and pitching full-blown memberships for their most avid users. 
+These collaborations were wildly creative, immediately breaking new ground by not limiting themselves to posting articles or hosting a Discord server, but instead considering what that specific community might need to thrive. Shared spaces designed around a common purpose, with affordances built to suit the unique characteristics of that community and its audience. A creative role-playing-game collective might for example host a mix of game tutorials; a [downloadable game](https://doad.co.uk/products/adventures-on-a-dime) and lore marketplace; and a suite of [utility apps](https://probabletrain.itch.io/dungeon-scrawl) useful to [gamemasters](https://en.wikipedia.org/wiki/Gamemaster). Different parts of the site might be monetized in different ways, leveraging streaming payment to unlock apps for occasional users, hosting real-time tutorials with a flat entry fee (and plenty of opportunities to tip), and pitching full-blown memberships for their most avid users. 
 
 These early collaborations were cobbled together, repurposing publishing tools such as WordPress, leveraging social decentralized protocols such as [Scuttlebutt](https://www.planetary.social/), or open-source community-building software such as [Forem](https://www.forem.com/), yet piece-by-piece, a new ecosystem was quietly forming. An ecosystem of tools with a robust base offering, but the flexibility to bolt on micro-services to suit new collaborators or a shift in a community’s focus or maturity level.
 
-_Want to quickly spin up a multi-user Interledger wallet to manage earnings? How about collaboratively sourcing, managing, and paying for editorial or legal services? Maybe you’ve decided to convert your [ad-hoc cooperative](https://thebrick.house/faq/) to a US social benefit corporation, or want to [find a physical space](https://www.listingsproject.com/) to colocate with like-minded people?_
+* _Want to quickly spin up a multi-user Interledger wallet to manage earnings?_ 
+* _How about collaboratively sourcing, managing, and paying for editorial or legal services?_ 
+* _Maybe you’ve decided to convert your [ad-hoc cooperative](https://thebrick.house/faq/) to a US social benefit corporation?_ 
+* _Or maybe you want to [find a physical space](https://www.listingsproject.com/) to colocate with like-minded people?_
 
 Not only was there now an app for that, but you could either pay for it directly from the earnings in your creator wallet or incrementally stream payments with each use. This influx of very different apps not only made incidental use easy, but stimulated the growth of a new generation of “professional grade” Web Monetization subscriptions, specially designed for the higher cost, and different usage patterns of professional applications. 
 
 Whether social, practical, or creative in nature, collaborations soon become destinations in their own right. Small enough not to feel (or behave) generic or corporate, yet [large enough to offer more value](https://studyhall.xyz/community/) than the sum of their individual parts. With each new collaborator came a new audience, simultaneously growing the value of the long tail web, and the new payment technology that powered it. It had taken a while, but the web was finally, for everyone.
 
-*******
+***
 
 
 ## Reading list
@@ -60,11 +63,10 @@ Whether social, practical, or creative in nature, collaborations soon become des
 Enjoyed this story? Discover ideas that inspired it, or may be of interest if this story has inspired you.
 
 
-
-*   [Ten strategies](https://li.substack.com/p/building-the-middle-class-of-the) to grow a middle class of online content creators. 
+ 
 *   A [disturbing investigative piece](https://www.nytimes.com/2020/10/18/technology/timpone-local-news-metric-media.html) by the New York Times, about a 1500 strong network of propaganda sites, purpose-built to fill the void in online local news.
 *   A [review](https://onezero.medium.com/the-ad-based-internet-is-about-to-collapse-what-comes-next-48e31d648a35) of Tim Hwang’s [Subprime Attention Crisis](https://us.macmillan.com/books/9780374538651), and Cory Doctorow’s [How to Destroy Surveillance Capitalism](https://onezero.medium.com/how-to-destroy-surveillance-capitalism-8135e6744d59), a series of short books that posit that the ad-funded web is headed for a crash, and explores how to build something better from the wreckage.
-*   [Towards privacy-friendly and sustainable online advertising](https://panoptykon.org/sites/default/files/publikacje/panoptykon_to_track_or_not_to_track_final.pdf): a thorough and accessible paper that explores an alternative to the current surveillance-based advertising model.
-*   A quick primer on [the death of cookies](https://www.axios.com/tracking-cookies-are-dead-9c316a2c-33c2-40b8-9801-069df07593a8.html), the battle [to determine the future ](https://digiday.com/media/w3c-third-party-cookie/)of (3rd-party-cookie-less) online advertising (and who gets to set that agenda), and [the most recent update](https://www.axios.com/tracking-cookies-are-dead-9c316a2c-33c2-40b8-9801-069df07593a8.html) on what may come next.
+*   [Towards privacy-friendly and sustainable online advertising](https://panoptykon.org/sites/default/files/publikacje/panoptykon_to_track_or_not_to_track_final.pdf) (PDF): a thorough and accessible paper that explores an alternative to the current surveillance-based advertising model.
+*   A quick primer on [the death of cookies](https://www.axios.com/tracking-cookies-are-dead-9c316a2c-33c2-40b8-9801-069df07593a8.html), and the battle [to determine the future ](https://digiday.com/media/w3c-third-party-cookie/)of (3rd-party-cookie-less) online advertising (and who gets to set that agenda).
 *   An ode to contextual advertising (which doesn’t explicitly require data collection): [What if we all sold non-creepy advertising?](https://www.nytimes.com/2019/06/19/opinion/facebook-google-privacy.html)
 *   [How to build a creative middle class](https://li.substack.com/p/building-the-middle-class-of-the). Interesting suggestions, including one of my favourites—explicitly encouraging the creation of low-replay content to reduce the concentration of mega-hits.

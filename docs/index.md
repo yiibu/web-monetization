@@ -1,4 +1,6 @@
-# A brief introduction
+# Exploring the future of web monetization
+
+_A paper by Stephanie Rieger_
 
 Welcome to the future. It’s 2030…
 
@@ -20,12 +22,10 @@ This paper comprises three sections.
 *   [Section two](three-futures/index.md) **presents three futures**,** **each depicting a world where Web Monetization has become mainstream yet resulted in different behaviours, patterns of equity, and degrees of openness and interoperability on the web.
 *   [Section three](recommendations/index.md) **presents my thoughts and recommendations** for the many stakeholders who will take this technology forward—including us, its users.
 
-The stories in this paper aren’t blueprints or business plans. Nothing is yet cast in stone. We _can_ build this. But we can also choose _not to_. My goal in writing this isn’t to predict that future but to spark discussion around each scenario’s benefits and pitfalls. 
-
-_Whom will they favour? Whom might they harm?_
+The stories in this paper aren’t blueprints or business plans. Nothing is yet cast in stone. We _can_ build this. But we can also choose _not to_. My goal in writing this isn’t to predict that future but to spark discussion around each scenario’s benefits and pitfalls. _Whom will they favour? Whom might they harm?_
 
 These questions are important, as they stimulate discussion, challenge assumptions, and motivate stakeholders to more clearly describe (and agree on) a future that is not only possible but _preferable_. Discussions such as these will be critical as the technology begins its journey towards becoming a web standard; [a clearly defined process](https://www.smashingmagazine.com/2019/01/web-standards-guide/), as practised in the World Wide Web Consortium (W3C), that attempts to ensure that new technologies are created in the open and are subject to wide review (including [ethical review](https://www.w3.org/2001/tag/doc/ethical-web-principles/)) before they can be called a web standard.
 
 To that end, success for me would be to see this paper widely read, debated, and disputed, as a small step towards ensuring these technologies go on to provide useful and meaningful change; empowering new creators and audiences to use the web, and ensuring it remains accessible to everyone—especially those who need it the most.
 
->Talk, loudly and frequently and in detail, about the future you want. You can’t manifest what you don’t share._ — Madeline Ashby
+>_Talk, loudly and frequently and in detail, about the future you want. You can’t manifest what you don’t share._ — Madeline Ashby

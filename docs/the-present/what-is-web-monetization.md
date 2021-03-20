@@ -20,13 +20,13 @@ The Web Monetization API is still evolving, so it’s important to distinguish h
 In its current state, Web Monetization has three primary actors.
 
 === "Users"
-    * *Users*, who browse the web while streaming micropayments to participating websites,
+    * **Users**, who browse the web while streaming micropayments to participating websites,
 
 === "Publishers"
-    * *Publishers*, who build the sites, apps, games and other services that receive these payments,
+    * **Publishers**, who build the sites, apps, games and other services that receive these payments,
 
 === "Providers"
-    * *Providers*, who offer Web Monetization subscriptions to users, determine how much to pay on their behalf, and serve as the originating ledger for the micropayment. With just one of these subscriptions, users can browse _all web monetized sites_. At the time of writing, there is still just one provider—a company called Coil (founded by the same people who developed Interledger).
+    * **Providers**, who offer Web Monetization subscriptions to users, determine how much to pay on their behalf, and serve as the originating ledger for the micropayment. With just one of these subscriptions, users can browse _all web monetized sites_. At the time of writing, there is still just one provider—a company called Coil (founded by the same people who developed Interledger).
 
 
 A fourth actor is the user’s **browser** (or _user agent_) which acts as an intermediary between the three of them. As no mainstream browser currently ships with support for Web Monetization, this role is currently played by [a browser extension](https://help.coil.com/docs/membership/coil-extension/index.html). If the technology is eventually accepted as a web standard, an important part of that process will be to clarify the _[exact role](https://github.com/WICG/webmonetization/issues/133)_ of the browser. 
@@ -52,11 +52,11 @@ We’ll be exploring some of these scenarios in the next chapter, but for the mo
 This may seem like a lot of steps, but to the user, it simply feels like this.
 
 !!! note ""
-    _Alice has recently signed up with Coil, a Web Monetization provider, and has installed the Coil extension on her mobile. While on the bus, her friend sends her a link to an article on a news and entertainment site. Alice clicks the link and as the page loads, her browser immediately notices that it includes a payment pointer._
+    Alice has recently signed up with Coil, a Web Monetization provider, and has installed the Coil extension on her mobile. While on the bus, her friend sends her a link to an article on a news and entertainment site. Alice clicks the link and as the page loads, her browser immediately notices that it includes a payment pointer.
+    
+    The browser validates the pointer, and begins to stream micropayments at a rate of $0.0001 per second. Alice can see this is happening because an icon on the browser’s navigation bar has now turned green. She can click the icon to see a real-time payment counter, manually pause the payment stream, or permanently block this site from further micropayments.
 
-    _The browser validates the pointer, and begins to stream micropayments at a rate of $0.0001 per second. Alice can see this is happening because an icon on the browser’s navigation bar has now turned green. She can click the icon to see a real-time payment counter, manually pause the payment stream, or permanently block this site from further micropayments._
-
-    _As Alice reaches the bottom of the article, she notices a graphic indicating that bonus content has been unlocked by the publisher in thanks for her contribution. Payments will continue to stream until Alice closes the tab, navigates to another site, or switches to a different application._
+    As Alice reaches the bottom of the article, she notices a graphic indicating that bonus content has been unlocked by the publisher in thanks for her contribution. Payments will continue to stream until Alice closes the tab, navigates to another site, or switches to a different application.
 
 A critical aspect of the proposed standard is that **all of these actors are interchangeable**. 
 
@@ -71,15 +71,15 @@ This is made possible thanks to the open nature of Interledger, and the design o
 
 ## Payment flow Q&A
 
-**How small is a micropayment?**
+#### How small is a micropayment?
 
 The amount streamed is expected to vary depending on the provider and plan the user has signed up for, yet (presuming the flat-rate subscription concept persists) amounts are expected to remain quite small. Coil, for example, streams at an average rate of $0.0001 USD per second, or $0.36 USD/hour.
 
-**Is the rate included as part of the API?**
+#### Is the rate included as part of the API?
 
 No. The spec includes as little as possible, leaving flexibility for ecosystem actors to build atop the technology, and devise new and innovative ways to use it.
 
-**Who can receive payments?**
+#### Who can receive payments?
 
 Two things are needed to receive payments: the ability to register with a digital wallet provider to obtain a payment pointer, and the ability to associate that payment pointer with a web site. 
 
@@ -90,7 +90,7 @@ Two things are needed to receive payments: the ability to register with a digita
 
 It’s worth remembering however that once receiving payments, many site owners will want to reward visitors for their contribution, and users may eventually expect they do so. To this end, [Web Monetization provider Coil](https://coil.com) currently offers a simple, [cloud-hosted blogging platform](https://help.coil.com/docs/monetize/content/coil-blogs/) that includes built-in tools to configure bonus content for paying users. To enable widespread adoption of the technology by non-technical users, the ecosystem will require far more [tools such as these](https://github.com/thomasbnt/awesome-web-monetization).
 
-**What is a payment pointer?**
+#### What is a payment pointer?
 
 Payment pointers are a URL that points to a secure payment endpoint (or address) on the web. They are human legible, easy-to-remember, and safe to share with third parties as (unlike bank account or credit card numbers) they can only be used to pay funds into an account. 
 
@@ -98,9 +98,9 @@ Example:_ $stephanie.wallet.example and $wallet.example/stephanie._
 
 Publishers simply add the pointer to the [document head](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML) (or template) of each page that they want to monetize. If they are using a CMS, adding this pointer may require a new field, but popular CMSs such as WordPress [already support this](https://xrpcommunity.blog/coil-wordpress/). 
 
-**Isn’t there already a W3C approved Web payments API?**
+#### Isn’t there already a W3C approved Web payments API?
 
-There is. The W3C has ratified a [Payments API web standard](https://www.w3.org/TR/payment-request/) designed for scenarios where_ a specific price has been expressed by a website_. In such a use case, that API’s role is to facilitate a smooth, secure, and consistent payment experience using traditional payment mechanisms such as credit cards, or on-device payment technologies that leverage these same mechanisms. 
+There is. The W3C has ratified a [Payments API web standard](https://www.w3.org/TR/payment-request/) designed for scenarios where **a specific price has been expressed by a website**. In such a use case, that API’s role is to facilitate a smooth, secure, and consistent payment experience using traditional payment mechanisms such as credit cards, or on-device payment technologies that leverage these same mechanisms. 
 
 Transactions such as these tend to require explicit user interaction—either because the sum is too large to presume it’s OK for payment to simply ‘happen’ in the background, or because completing the transaction requires the input of additional information, such as a shipping address. 
 
@@ -190,7 +190,6 @@ _Tools for publishers_
 
 In the near future, [it seems likely](https://github.com/WICG/webmonetization/issues/19) that the payment pointer metatag will be replaced by a new syntax, similar to that currently used to specify a style sheet or JavaScript file. While seemingly minor, this change is an important reminder that, just as widespread browser implementation will be critical to user adoption, the final publisher-facing implementation will determine how easy it is for creators to experiment with the technology. 
 
- \
 The current specification is simple enough to put the technology within reach of millions of bloggers and independent website owners, including those using turnkey hosted services such as Wix, and WordPress.com. This is an important requirement (and one that we should seek to preserve as the specification evolves) but should a creator wish to display a thank you message or unlock bonus content in thanks for a user’s contribution, they will currently need to build the tech to do so on their own.
 
 Few of these tools currently exist, and what gets built (especially early on) may go on to influence the mental models of ecosystem actors, and the capabilities that are ultimately codified (or omitted) from the standard.
