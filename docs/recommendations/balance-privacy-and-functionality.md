@@ -4,26 +4,19 @@ Enjoying absolute privacy as you browse the web would be ideal, and I applaud Co
 
 What’s not yet clear, is whether this binary approach to privacy will serve their users as well as they believe. To better understand why, it helps to consider the role, incentives, and choices of each of our three actors.
 
-=== "Providers"
-
-    * **Providers** must gain and retain subscribers while making a profit—if not on each subscriber, then certainly across the aggregate of their user base. Thanks to the open standard, these subscribers will however be free to change providers at any time. 
+* **Providers** must gain and retain subscribers while making a profit—if not on each subscriber, then certainly across the aggregate of their user base. Thanks to the open standard, these subscribers will however be free to change providers at any time. 
 
 
-    * To move beyond the role of transactional “dumb pipe”, providers may choose to compete on aspects such as price, performance, subscriber-facing features, and the quality of any integrations they offer to publishers (which, if they enable more seamless and consistent perks experiences, could be something that even _subscribers_ seek out). Providers that experiment with even a few of these may find it necessary to collect more data than is currently envisioned, or struggle to meaningfully use what they already collect if it remains fully anonymized.        
+   To move beyond the role of transactional “dumb pipe”, providers may choose to compete on aspects such as price, performance, subscriber-facing features, and the quality of any integrations they offer to publishers (which, if they enable more seamless and consistent perks experiences, could be something that even _subscribers_ seek out). Providers that experiment with even a few of these may find it necessary to collect more data than is currently envisioned, or struggle to meaningfully use what they already collect if it remains fully anonymized.        
   
 
-=== "Publishers"
+* **Publishers** will in the meantime have to strike a balance between providing tangible yet proportionate value to their new sporadic micro-payers, and ensuring any long-term subscribers feel their level commitment is still worth it. They will also need to contend with an open ecosystem of possibly thousands of providers, each with a different business model and streaming rates, and are therefore likely to welcome APIs that enable them to predict streaming rates, anticipate revenue per session, and accurately reward repeat visitors. And while this gap creates an opportunity for third parties to build tools to address these needs, these tools seem likely to almost immediately start collecting, or attempting to infer, some of the data a provider has obfuscated.
 
-    * **Publishers** will in the meantime have to strike a balance between providing tangible yet proportionate value to their new sporadic micro-payers, and ensuring any long-term subscribers feel their level commitment is still worth it. They will also need to contend with an open ecosystem of possibly thousands of providers, each with a different business model and streaming rates, and are therefore likely to welcome APIs that enable them to predict streaming rates, anticipate revenue per session, and accurately reward repeat visitors. And while this gap creates an opportunity for third parties to build tools to address these needs, these tools seem likely to almost immediately start collecting, or attempting to infer, some of the data a provider has obfuscated.
 
-=== "Users"
+ * **Users** will meanwhile want to reach the end of the month with a feeling that the amount they paid was “worth it”. What this means will vary from person to person, but is likely to include being able to easily see how their money has been spent, receive perks that feel proportional to the amount they have paid (especially if they regularly frequent a site), and adjust their spend to favour sites they most care about. 
 
-    * **Users** will meanwhile want to reach the end of the month with a feeling that the amount they paid was “worth it”. What this means will vary from person to person, but is likely to include being able to easily see how their money has been spent, receive perks that feel proportional to the amount they have paid (especially if they regularly frequent a site), and adjust their spend to favour sites they most care about. 
+  This last point is particularly important. Just as sites now ask users with ad-blockers to shut them off, they will no doubt find ways to penalise users who stream while running on fumes. Users will therefore be incentivized to only pay websites they actually care about, and providers will in turn be compelled to enable them to do so. An unhappy user may choose to switch providers, stop visiting or (where available) block payments to certain sites in an effort to favour others, or stop participating in the ecosystem altogether. 
 
-    * This last point is particularly important. Just as sites now ask users with ad-blockers to shut them off, they will no doubt find ways to penalise users who stream while running on fumes. Users will therefore be incentivized to only pay websites they actually care about, and providers will in turn be compelled to enable them to do so. An unhappy user may choose to switch providers, stop visiting or (where available) block payments to certain sites in an effort to favour others, or stop participating in the ecosystem altogether. 
-
-    All things considered—and assuming flat-rate streaming memberships remain the primary model—_it seems unlikely that the current privacy vision will enable the ecosystem to simultaneously fulfil all of these promises_. 
- 
 
 _All things considered—and assuming flat-rate streaming memberships remain the primary model—it seems unlikely that the current privacy vision will enable the ecosystem to simultaneously fulfil all of these promises_. 
 
@@ -44,18 +37,12 @@ Let’s look at how this might work, the opportunities for each actor, and where
 Let’s first look at how different layers of privacy might work at the provider level. 
 
 
-=== "Level 0"
+*   **Level 0** is akin to [what Coil offers](https://coil.com/p/sharafian/Doubling-Down-on-Privacy/cD_ZiwT2J) today. Users can browse the web in full confidence that their provider cannot see the sites they are visiting and that this obfuscation extends to its exchanges with both the wallet and publisher. As Coil isn’t gathering data, it cannot provide user-facing tools such as analytics, but users are free to install third-party browser extensions that do.
 
-    *   **Level 0 **is akin to [what Coil offers](https://coil.com/p/sharafian/Doubling-Down-on-Privacy/cD_ZiwT2J) today. Users can browse the web in full confidence that their provider cannot see the sites they are visiting and that this obfuscation extends to its exchanges with both the wallet and publisher. As Coil isn’t gathering data, it cannot provide user-facing tools such as analytics, but users are free to install third-party browser extensions that do.
-
-=== "Level 1"
-
-    *   At **Level 1,** users would opt-in to limited data collection. Doing so would unlock functionality such as charts that show their money has been spent, the ability to block sites they prefer not to pay, and boost payment to sites they most care about. The data collected to enable this would be clearly explained during opt-in, and users could at any time clear their history, or revert to Level 0.
+*   At **Level 1,** users would opt-in to limited data collection. Doing so would unlock functionality such as charts that show their money has been spent, the ability to block sites they prefer not to pay, and boost payment to sites they most care about. The data collected to enable this would be clearly explained during opt-in, and users could at any time clear their history, or revert to Level 0.
 
 
-=== "Level 2"
-
-    *   At **Level 2 **users could opt-in to share additional data, maybe not in this case used directly by providers, but shared onward to publishers. This might unlock new APIs enabling publishers to better interface with users, track and anticipate their spend (or lack thereof if payment is blocked), or signal what perks are available. Although the specification doesn’t currently envision this sort of tie-in with providers (which could result in provider consolidation to “own” the API) the downstream user experience benefits make it worth considering.
+ *   At **Level 2** users could opt-in to share additional data, maybe not in this case used directly by providers, but shared onward to publishers. This might unlock new APIs enabling publishers to better interface with users, track and anticipate their spend (or lack thereof if payment is blocked), or signal what perks are available. Although the specification doesn’t currently envision this sort of tie-in with providers (which could result in provider consolidation to “own” the API) the downstream user experience benefits make it worth considering.
   
 
 As the first provider, Coil has a unique opportunity to not only experiment with ways to achieve this at a technical level, but gain valuable insight into user sentiment, mental models, and comfort level with the trade-offs involved at each level. 
@@ -92,8 +79,8 @@ The why…
 
 
 
-*   **Choice: **Browser consolidation is always a risk, but there are still many browsers to choose from, and (discussions of rendering engine diversity aside), switching browsers does enable users to unlock dramatically different features. 
-*   **Trust: **Users already trust the browser with their information. Some of this trust is aided by architecture and standards that put user safety first, but the existence of these standards and the formalized process to create new ones is proof that we should be able to do the same once again. Some browsers are also entirely open, enabling regular scrutiny, and making it relatively easy for someone to create a new browser. 
+*   **Choice:** Browser consolidation is always a risk, but there are still many browsers to choose from, and (discussions of rendering engine diversity aside), switching browsers does enable users to unlock dramatically different features. 
+*   **Trust:** Users already trust the browser with their information. Some of this trust is aided by architecture and standards that put user safety first, but the existence of these standards and the formalized process to create new ones is proof that we should be able to do the same once again. Some browsers are also entirely open, enabling regular scrutiny, and making it relatively easy for someone to create a new browser. 
 *   **Context:** The browser feels like a logical spot for a user to store global browsing preferences—which already often include passwords, payment credentials, and could in the future include customizations related to streaming payments.
 
 Here are a few examples of how this might work…

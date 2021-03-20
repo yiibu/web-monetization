@@ -17,8 +17,8 @@ declare -a contents=("index.md"
 "recommendations/balance-privacy-and-functionality.md" 
 "recommendations/facilitate-bundling.md" 
 "recommendations/mitigate-harm.md"
-"in-closing/index.md"
-"bio-acknowledgements/index.md"
+"final-words.md"
+"bio-acknowledgements.md"
 )
 
 ## now loop through the above array

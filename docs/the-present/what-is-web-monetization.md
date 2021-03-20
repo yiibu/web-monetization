@@ -19,14 +19,12 @@ The Web Monetization API is still evolving, so it’s important to distinguish h
 
 In its current state, Web Monetization has three primary actors.
 
-=== "Users"
-    * **Users**, who browse the web while streaming micropayments to participating websites,
 
-=== "Publishers"
-    * **Publishers**, who build the sites, apps, games and other services that receive these payments,
+* **Users**, who browse the web while streaming micropayments to participating websites,
 
-=== "Providers"
-    * **Providers**, who offer Web Monetization subscriptions to users, determine how much to pay on their behalf, and serve as the originating ledger for the micropayment. With just one of these subscriptions, users can browse _all web monetized sites_. At the time of writing, there is still just one provider—a company called Coil (founded by the same people who developed Interledger).
+* **Publishers**, who build the sites, apps, games and other services that receive these payments,
+
+* **Providers**, who offer Web Monetization subscriptions to users, determine how much to pay on their behalf, and serve as the originating ledger for the micropayment. With just one of these subscriptions, users can browse _all web monetized sites_. At the time of writing, there is still just one provider—a company called Coil (founded by the same people who developed Interledger).
 
 
 A fourth actor is the user’s **browser** (or _user agent_) which acts as an intermediary between the three of them. As no mainstream browser currently ships with support for Web Monetization, this role is currently played by [a browser extension](https://help.coil.com/docs/membership/coil-extension/index.html). If the technology is eventually accepted as a web standard, an important part of that process will be to clarify the _[exact role](https://github.com/WICG/webmonetization/issues/133)_ of the browser. 
@@ -51,7 +49,6 @@ We’ll be exploring some of these scenarios in the next chapter, but for the mo
 
 This may seem like a lot of steps, but to the user, it simply feels like this.
 
-!!! note ""
     Alice has recently signed up with Coil, a Web Monetization provider, and has installed the Coil extension on her mobile. While on the bus, her friend sends her a link to an article on a news and entertainment site. Alice clicks the link and as the page loads, her browser immediately notices that it includes a payment pointer.
     
     The browser validates the pointer, and begins to stream micropayments at a rate of $0.0001 per second. Alice can see this is happening because an icon on the browser’s navigation bar has now turned green. She can click the icon to see a real-time payment counter, manually pause the payment stream, or permanently block this site from further micropayments.

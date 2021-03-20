@@ -7,3 +7,4 @@ The first is **Interledger**, a protocol that enables the transfer of money over
 One answer to this has a great deal to do with the unique properties of Interledger, a payment technology modelled after the internet and therefore uniquely suited to not only live natively within it—but work alongside the browser to enable streaming payments. **In this section, we introduce these technologies, explain how they currently work, and what may be just around the corner.** 
 
 If you’re already familiar with these technologies, feel free to [skip to the next chapter](../three-futures/index.md), **which peers into the future using fiction to reveal three speculative scenarios** that explore a different web monetization business model and its impact on the future of the web, and it's users.
+
