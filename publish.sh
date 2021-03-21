@@ -1,7 +1,7 @@
 ## declare an array variable
 
 cover="cover.png"
-filename="Exploring the Future of Web Monetization"
+filename="Exploring_the_Future_of_Web_Monetization"
 files=""
 input="docs"
 output="published"
