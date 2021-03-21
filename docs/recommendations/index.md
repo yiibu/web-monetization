@@ -1,4 +1,4 @@
-# Thoughts and recommendations
+# Where to next?
 
 The current Web Monetization business model is on the one hand quite compelling. For a flat monthly fee, users can visit a potentially unlimited number of participating websites, in full privacy, and on some sites, receive a reward for their support. _What’s not to love?_ The pitch to publishers seems equally rosy. Sign up for a wallet, add a line of code to your site, and watch payments stream in while experimenting with ways to reward your supporters. It’s low friction, cheap and easy to experiment with, and open to almost anyone.
 

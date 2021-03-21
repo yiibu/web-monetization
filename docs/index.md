@@ -1,6 +1,6 @@
 # Three futures: Exploring the future of web monetization
 
-A paper by Stephanie Rieger
+A paper by [Stephanie Rieger](bio-acknowledgements.md)
 
 
 
