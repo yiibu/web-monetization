@@ -10,17 +10,19 @@ This is the vision proposed by the creators of Web Monetization, an API and prop
 
 **Why this paper?**
 
+>_Talk, loudly and frequently and in detail, about the future you want. You can’t manifest what you don’t share._ — Madeline Ashby
+
 With more than half the planet now online, and so many of us relying on the web for our livelihoods, our education, and the very functioning of our democratic processes, it’s become critical to carefully consider the potential impact of every new technology we invent. This includes not only imagining all its positive effects but how it might be misused, or cause accidental harm through poor design, a misalignment of incentives, or the eventual impacts of scale.
 
 This paper aims to kick-start this sort of discussion for Web Monetization by exploring its potential long-term impacts; positing both positive and negative ways the technology may change to how we use the web, and providing recommendations to ensure they result in a more equitable, open, and diverse web. 
 
-This paper comprises three sections. 
+This paper contains three sections. 
 
 
 
 *   **[Section one](ch002.xhtml) introduces the Interledger protocol and Web Monetization API**, explaining the problems they aim to solve, how they work. This section doesn’t attempt to be exhaustive but provides sufficient context to enrich the scenarios in section two. _If you already understand these technologies, feel free to skip to the next section._
 *   **[Section two](ch005.xhtml) presents three futures**, each depicting a world where Web Monetization has become mainstream yet resulted in different behaviours, patterns of equity, and degrees of openness and interoperability on the web.
-*   **[Section three](recommendations/index.xhtml) presents my thoughts and recommendations** for the many stakeholders who will take this technology forward—including us, its users.
+*   **[Section three](ch009.xhtml) presents my thoughts and recommendations** for the many stakeholders who will take this technology forward—including us, its users.
 
 The stories in this paper aren’t blueprints or business plans. Nothing is yet cast in stone. We _can_ build this. But we can also choose _not to_. My goal in writing this isn’t to predict that future but to spark discussion around each scenario’s benefits and pitfalls. _Whom will they favour? Whom might they harm?_
 
@@ -28,4 +30,3 @@ These questions are important, as they stimulate discussion, challenge assumptio
 
 To that end, success for me would be to see this paper widely read, debated, and disputed, as a small step towards ensuring these technologies go on to provide useful and meaningful change; empowering new creators and audiences to use the web, and ensuring it remains accessible to everyone—especially those who need it the most.
 
->_Talk, loudly and frequently and in detail, about the future you want. You can’t manifest what you don’t share._ — Madeline Ashby

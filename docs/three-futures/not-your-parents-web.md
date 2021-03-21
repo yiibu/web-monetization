@@ -60,3 +60,4 @@ Enjoyed this story? Discover things that inspired it, or may be of interest if t
 *   An excellent roundup of [Chinese virtual gifting](https://medium.com/@swaysnt/virtual-gifts-a-live-streaming-business-model-breakdown-a87c7500c3bc) and live-streaming business models.
 *   Musings on what [a Spotify for news](http://www.davidbauer.ch/2009/07/20/an-itunes-for-news-try-spotify-for-beyond-news/) might look like. 
 *   An argument against [micropayments as a solution to ad-blocking](https://digiday.com/media/micropayments-ad-blocking/) (that turns into an argument for centralized payment services).
+  

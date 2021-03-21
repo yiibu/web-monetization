@@ -126,7 +126,7 @@ Coil streams at an average rate of $0.0001 USD per second (or $0.36 an hour). On
 
 It’s unclear whether this approach will persist. Varying the streaming rate is bound to frustrate publishers, but as the specification is open, there’s nothing preventing a new provider from choosing a different rate, or an entirely different approach to both subscriptions and overages. As the ecosystem is currently small, Coil is working hard to attract both users and publishers. Covering overages (albeit at a lower stream rate) may simply be a cost they will have to bear, but it’s also worth noting that if a member _doesn’t_ browse enough to spend their $5 allotment, Coil keeps whatever remains.
 
-**What’s in the subscription?**
+#### What’s in the subscription?
 
 Coil’s model is purely transactional. Any publisher can receive payments from Coil subscribers by placing a payment pointer on their site and requires no special permission or account to do so. _Unlike_ flat-rate streaming services for film or music, Coil has no formal agreement with creators. It doesn’t own or fund the creation of content, nor does it have a say in the benefits they provide to Coil subscribers. There is however nothing preventing future providers (or Coil itself) from choosing to alter these terms in an effort to increase profitability or work towards a superior product/market fit.
 
@@ -134,13 +134,13 @@ To encourage the growth of a healthy ecosystem, Coil does however strongly recom
 
 The end approach is however ultimately up to site owners, and as it’s still early days, many are still exploring and evaluating their options.
 
-**Using and enabling Coil**
+#### Using and enabling Coil
 
 At the time of writing, Web Monetization is primarily available using a desktop browser extension provided by Coil. Once installed and configured with a user’s credentials, the extension streams payments to any web monetized site that requests it. Beyond this, the functionality is quite limited. Users are unable to stop the stream, block a domain that they prefer not to fund, or obtain transaction details such as the amount streamed in each browsing session. 
 
 Some of these features will no doubt appear with time, but others have been _purposely left out_ as they would require more data collection than Coil is happy to undertake given its strict [privacy promise](https://help.coil.com/docs/general-info/privacy-policy/). They instead envision an ecosystem where users wanting such functionality can download third-party browser extensions such as [PayTrackr](https://dev.to/wobsoriano/introducing-paytrackr-an-easy-way-to-keep-track-of-all-your-micropayments-4m31) or [Akita,](https://github.com/esse-dev/akita/blob/master/README.md) which provide features such as a real-time count of payments to individual domains, and a running total of payments per day/month. 
 
-**Coil’s privacy promise**
+#### Coil’s privacy promise
 
 Coil’s founders started the company to experiment with alternatives to monetization through advertising, and in doing so, provide alternatives to the tracking and data collection that often accompany it. They’ve therefore taken a firm stance on user privacy, and have implemented a range of safeguards to ensure the technology doesn’t inadvertently introduce new opportunities to gather data about users’ activities on the web.
 
@@ -165,7 +165,7 @@ Coil works hard to protect subscriber privacy, but it’s important to remember 
 As there is also no built-in way to track paying visitors across sessions, larger or more capable sites may encourage users to create an account, and log-in whenever they use the site in an effort to more accurately reward visitors for their contribution.
 
 
-## What is likely to change?
+## What's likely to change?
 
 A lot can change when it comes to new technologies, and there’s nothing to indicate that Web Monetization will be any different. Here are the most likely short-term changes:
 
