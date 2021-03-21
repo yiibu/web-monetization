@@ -18,8 +18,8 @@ This paper comprises three sections.
 
 
 
-*   **[Section one](the-present/index.xhtml) introduces the Interledger protocol and Web Monetization API**, explaining the problems they aim to solve, how they work. This section doesn’t attempt to be exhaustive but provides sufficient context to enrich the scenarios in section two. _If you already understand these technologies, feel free to skip to the next section._
-*   **[Section two](three-futures/index.xhtml) presents three futures**, each depicting a world where Web Monetization has become mainstream yet resulted in different behaviours, patterns of equity, and degrees of openness and interoperability on the web.
+*   **[Section one](ch002.xhtml) introduces the Interledger protocol and Web Monetization API**, explaining the problems they aim to solve, how they work. This section doesn’t attempt to be exhaustive but provides sufficient context to enrich the scenarios in section two. _If you already understand these technologies, feel free to skip to the next section._
+*   **[Section two](ch005.xhtml) presents three futures**, each depicting a world where Web Monetization has become mainstream yet resulted in different behaviours, patterns of equity, and degrees of openness and interoperability on the web.
 *   **[Section three](recommendations/index.xhtml) presents my thoughts and recommendations** for the many stakeholders who will take this technology forward—including us, its users.
 
 The stories in this paper aren’t blueprints or business plans. Nothing is yet cast in stone. We _can_ build this. But we can also choose _not to_. My goal in writing this isn’t to predict that future but to spark discussion around each scenario’s benefits and pitfalls. _Whom will they favour? Whom might they harm?_

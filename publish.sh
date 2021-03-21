@@ -1,23 +1,24 @@
 ## declare an array variable
 
-
+cover="cover.png"
 filename="Rieger, Stephanie - Exploring the Future of Web Monetization"
 files=""
 input="docs"
 output="published"
-declare -a contents=("index.md" 
-"the-present/index.md" 
-"the-present/what-is-the-interledger-protocol.md" 
-"the-present/what-is-web-monetization.md" 
-"three-futures/index.md" 
-"three-futures/reset-the-open-web.md" 
-"three-futures/the-bundled-web.md" 
-"three-futures/not-your-parents-web.md" 
-"recommendations/index.md" 
-"recommendations/balance-privacy-and-functionality.md" 
-"recommendations/facilitate-bundling.md" 
-"recommendations/mitigate-harm.md"
-"final-words.md"
+stylesheet="epub.css"
+declare -a contents=("index.md" \
+"the-present/index.md" \
+"the-present/what-is-the-interledger-protocol.md" \
+"the-present/what-is-web-monetization.md" \
+"three-futures/index.md" \
+"three-futures/reset-the-open-web.md" \
+"three-futures/the-bundled-web.md" \
+"three-futures/not-your-parents-web.md" \
+"recommendations/index.md" \
+"recommendations/balance-privacy-and-functionality.md" \
+"recommendations/facilitate-bundling.md" \
+"recommendations/mitigate-harm.md" \
+"final-words.md" \
 "bio-acknowledgements.md"
 )
 
@@ -32,4 +33,4 @@ done
 
 mkdir -p ${output}
 pandoc -o "${output}/${filename}.pdf" $files
-pandoc -o "${output}/${filename}.epub" metadata.yaml $files
+pandoc -o "${output}/${filename}.epub" metadata.yaml $files --epub-cover-image=$cover --toc --toc-depth=2 --css=$stylesheet
