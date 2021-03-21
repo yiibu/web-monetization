@@ -49,11 +49,11 @@ We’ll be exploring some of these scenarios in the next chapter, but for the mo
 
 This may seem like a lot of steps, but to the user, it simply feels like this.
 
-    Alice has recently signed up with Coil, a Web Monetization provider, and has installed the Coil extension on her mobile. While on the bus, her friend sends her a link to an article on a news and entertainment site. Alice clicks the link and as the page loads, her browser immediately notices that it includes a payment pointer.
+_Alice has recently signed up with Coil, a Web Monetization provider, and has installed the Coil extension on her mobile. While on the bus, her friend sends her a link to an article on a news and entertainment site. Alice clicks the link and as the page loads, her browser immediately notices that it includes a payment pointer._
     
-    The browser validates the pointer, and begins to stream micropayments at a rate of $0.0001 per second. Alice can see this is happening because an icon on the browser’s navigation bar has now turned green. She can click the icon to see a real-time payment counter, manually pause the payment stream, or permanently block this site from further micropayments.
+_The browser validates the pointer, and begins to stream micropayments at a rate of $0.0001 per second. Alice can see this is happening because an icon on the browser’s navigation bar has now turned green. She can click the icon to see a real-time payment counter, manually pause the payment stream, or permanently block this site from further micropayments._
 
-    As Alice reaches the bottom of the article, she notices a graphic indicating that bonus content has been unlocked by the publisher in thanks for her contribution. Payments will continue to stream until Alice closes the tab, navigates to another site, or switches to a different application.
+_As Alice reaches the bottom of the article, she notices a graphic indicating that bonus content has been unlocked by the publisher in thanks for her contribution. Payments will continue to stream until Alice closes the tab, navigates to another site, or switches to a different application._
 
 A critical aspect of the proposed standard is that **all of these actors are interchangeable**. 
 

@@ -1,7 +1,7 @@
 ## declare an array variable
 
 cover="cover.png"
-filename="Rieger, Stephanie - Exploring the Future of Web Monetization"
+filename="Exploring the Future of Web Monetization"
 files=""
 input="docs"
 output="published"
@@ -32,5 +32,4 @@ do
 done
 
 mkdir -p ${output}
-pandoc -o "${output}/${filename}.pdf" $files
 pandoc -o "${output}/${filename}.epub" metadata.yaml $files --epub-cover-image=$cover --toc --toc-depth=2 --css=$stylesheet
