@@ -16,7 +16,7 @@ google_analytics:
   - auto
 
 nav:
-  - Start here!: index.md
+  - Introduction: index.md
   - The Present:
     - A technology in two parts: the-present/index.md
     - What is the Interledger protocol?: the-present/what-is-the-interledger-protocol.md
