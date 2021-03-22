@@ -19,7 +19,7 @@ With more than half the planet now online, and so many of us relying on the web 
 
 This paper aims to kick-start this sort of discussion for Web Monetization by exploring its potential long-term impacts; positing both positive and negative ways the technology may change to how we use the web, and providing recommendations to ensure they result in a more equitable, open, and diverse web. 
 
-This paper contains three sections. 
+The paper contains three sections. 
 
 
 *   **[Section one](the-present/index.md) introduces the Interledger protocol and Web Monetization API**, explaining the problems they aim to solve, how they work. This section doesn’t attempt to be exhaustive but provides sufficient context to enrich the scenarios in section two. _If you already understand these technologies, feel free to skip to the next section._

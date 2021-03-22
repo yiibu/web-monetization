@@ -5,8 +5,8 @@ theme:
   custom_dir: overrides
   logo: assets/logo.png
   palette:
-    primary: teal
-    accent: orange
+    primary: light green
+    accent: indigo
 
 
 copyright: Copyright &copy; 2021 Stephanie Rieger
