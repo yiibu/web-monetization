@@ -7,15 +7,15 @@ A paper by [Stephanie Rieger](bio-acknowledgements.md)
 
 **_Welcome to the future. It’s 2030…_**
 
-_You’re surfing the web and come across an interesting website. Perhaps it contains a collection of gluten-free recipes or a unique multi-episode knitting course, or maybe it’s a community for people learning to speak Spanish. Now imagine being able to easily send its creator money as a token of your appreciation. Rather than subscribing to that site specifically, you use a service that automatically streams tiny payments as you browse. The donations you make are paid in real-time into the creator’s digital wallet, and sometimes, you are directly rewarded with a thank you message or a small piece of bonus content._
+_You’re surfing the web and come across an interesting website. Perhaps it contains a collection of gluten-free recipes or a unique multi-episode knitting course, or maybe it’s a community for people learning to speak Spanish. Now imagine being able to easily send its creator money as a token of your appreciation. Rather than subscribe to that site specifically, you use a service that automatically streams tiny payments as you browse. The donations you make are paid in real-time to that creator’s digital wallet, and they may choose to reward you with a thank you message or small piece of bonus content._
 
-This is the vision proposed by the creators of Web Monetization, an API and proposed web standard that enables users to stream tiny payments (usually fractions of a cent) to websites as they browse the web. In exchange for this payment, websites can provide the user with a “premium” experience such as allowing access to exclusive content or removing advertising. All of this is made possible by Interledger, an open protocol that applies many of the principles of network design, to payments. 
+This is the vision proposed by the creators of Web Monetization, an API and proposed web standard that enables users to stream tiny payments (usually fractions of a cent) to websites as they browse the web. In exchange for this payment, websites can provide users with a “premium” experience such as free access to exclusive content or removing advertising. All of this is made possible by Interledger, an open protocol that applies many of the principles of network design, to payments. 
 
 ## Why this paper?
 
 >_Talk, loudly and frequently and in detail, about the future you want. You can’t manifest what you don’t share._ — Madeline Ashby
 
-With more than half the planet now online, and so many of us relying on the web for our livelihoods, our education, and the very functioning of our democratic processes, it’s become critical to carefully consider the potential impact of every new technology we invent. This includes not only imagining all its positive effects but how it might be misused, or cause accidental harm through poor design, a misalignment of incentives, or the eventual impacts of scale.
+With more than half the planet now online, and so many of us relying on the web for our livelihoods, our education, and the very functioning of our democratic processes, it’s become critical to carefully consider the potential impact of every new technology we invent. This includes not only imagining all its positive effects, but how it might be misused or cause accidental harm through poor design, a misalignment of incentives, or the eventual impacts of scale.
 
 This paper aims to kick-start this sort of discussion for Web Monetization by exploring its potential long-term impacts; positing both positive and negative ways the technology may change to how we use the web, and providing recommendations to ensure they result in a more equitable, open, and diverse web. 
 
