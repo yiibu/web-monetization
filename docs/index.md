@@ -17,7 +17,7 @@ This is the vision proposed by the creators of Web Monetization, an API and prop
 
 With more than half the planet now online, and so many of us relying on the web for our livelihoods, our education, and the very functioning of our democratic processes, it’s become critical to carefully consider the potential impact of every new technology we invent. This includes not only imagining all its positive effects, but how it might be misused or cause accidental harm through poor design, a misalignment of incentives, or the eventual impacts of scale.
 
-This paper aims to kick-start this sort of discussion for Web Monetization by exploring its potential long-term impacts; positing both positive and negative ways the technology may change to how we use the web, and providing recommendations to ensure they result in a more equitable, open, and diverse web. 
+This paper aims to kick-start this sort of discussion for Web Monetization by exploring its potential long-term impacts; positing both positive and negative ways the technology may change how we use the web, and providing recommendations to ensure they result in a more equitable, open, and diverse web. 
 
 The paper contains three sections. 
 
