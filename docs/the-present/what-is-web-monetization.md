@@ -64,7 +64,7 @@ A critical aspect of the proposed standard is that **all of these actors are int
 
 *   Alice can easily _switch to a provider_ with a better offering (e.g. subscription cost, streaming rate, payment tracking features, specialized perks on certain sites)
 *   Publishers can monetize _any visitor_—not simply those from a specific provider. 
-*   Publishers _can choose any receiver wallet _through which to collect their earnings and do so in any currency that the wallet supports—not merely those supported by Alice’s provider. 
+*   Publishers _can choose any receiver wallet_ through which to collect their earnings and do so in any currency that the wallet supports—not merely those supported by Alice’s provider. 
 
 This is made possible thanks to the open nature of Interledger, and the design of the equally open Web Monetization API. Whether this interoperability is likely to persist, and what needs might prompt such a change, is something we will explore in the next chapter. 
 
