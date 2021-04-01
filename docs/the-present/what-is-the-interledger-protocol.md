@@ -6,7 +6,7 @@ Let’s begin by breaking down what this means, and why it’s useful compared t
 
 Sending money from your bank account to another at the same bank is quick (and probably free) because the bank is merely moving money around its own systems. For this reason, you may also be able to quickly and cheaply send money to a friend who uses the same bank. And if you’re lucky, major financial institutions within your country will have agreed on a local standard to enable money to flow easily and cheaply between them. 
 
-What all of these scenarios have in common is trust. A bank knows who it's customers are, and local institutions typically follow the same standards, so have more reliable signals with which to trust each other. In cases where despite all this, trust remains low, sheer proximity may prove enough to incentivize collaboration towards some form of local interoperability. 
+What all of these scenarios have in common is trust. A bank knows who its customers are, and local institutions typically follow the same standards, so have more reliable signals with which to trust each other. In cases where despite all this, trust remains low, sheer proximity may prove enough to incentivize collaboration towards some form of local interoperability. 
 
 All of this changes with distance. Instructing your bank to pay a random person in another country requires they not only interact with often unknown systems but ensure they have the most trustworthy partners with which to do so. The cost of this complexity and uncertainty is passed on to you, either in the form or high transfer fees, or the time it may take to ensure the risk of fraud has been sufficiently minimized. 
 
